@@ -20,8 +20,8 @@ class Project extends React.Component{
              </div>
              <div className="card">
                  <h4>"<b>weather report</b> App "</h4>
-                 <p>This app will help to get the weather report of current position and weather report of
-                     any place by searching the city name</p>
+                 <p>This app will help to get the weather report of
+                     any place by searching the name of that place</p>
              </div>
              <div className="card">
                  <h4><b>"Navigation map</b></h4>
