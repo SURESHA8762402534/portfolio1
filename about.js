@@ -1,7 +1,7 @@
 class About extends React.Component{
     render(){
         return(
-            <>
+            <div id="aboutmain">
             <h1 className="heading">ABOUT ME</h1><br></br>
             <div className="about">
            <span>
@@ -39,7 +39,7 @@ class About extends React.Component{
      </span>
             </div>
             <hr></hr>
-            </>
+            </div>
         )
     }
 }

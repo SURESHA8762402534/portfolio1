@@ -10,7 +10,7 @@ body{
 .nav{
     display: flex;
     width: 100%;
-    color: white;
+    color: brown;
     font-size: 30px;
     font-weight: 900;
     text-align: center;
@@ -25,9 +25,15 @@ body{
     margin: 0;
 }
 .tab{
+    width: 350px;
+    height: 98vh;
     display: grid;
     place-content: center;
     position: fixed;
+    background-color: #a8ff78;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px orange;
 }
 .tab > h1{
     margin-top: 30px;
@@ -47,10 +53,8 @@ body{
     background-color: aqua;
     text-align: center;
     position: fixed;
-    border: 1px solid white;
     margin-right: 5px;
     margin-top: 5px;
-    padding-left: 60px;
 }
 .main{
     margin-top: 10px;
@@ -74,20 +78,21 @@ body{
     width: 80vw;
     height: auto;
     padding: 10px;
-    background-color: rgb(128, 199, 118);
-    border: 1px solid white;
+    background: linear-gradient(right, #a8ff78 #78ffd6);
     left: 350px;
     margin-top: 10px;
     position: absolute;
     padding-left: 20px;
-    padding-top:60px ;
-   
 }
 
 .home{
     display: grid;
     grid-template-columns: repeat(2,auto);
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+    background-color: antiquewhite;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
 }
 #first{
     margin-top: 200px;
@@ -96,7 +101,7 @@ body{
 #first > h1{
     font-size: 40px;
     font-weight: bold;
-    color: white;
+    color: brown;
     text-shadow: 0 0 10px 10px white;
     margin-bottom: 30px;
     margin-right: 0;
@@ -122,6 +127,12 @@ body{
     border-radius: 10px;
     margin-left: 0;
 }
+#aboutmain{
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
 .about{
     display: grid;
     grid-template-columns: repeat(2,auto);
@@ -139,7 +150,7 @@ body{
 #about{
     width: 700px;
     height: 400px;
-    background-color:rgb(128, 199, 118);
+    /* background-color:rgb(128, 199, 118); */
 }
 #about > h4{
     margin-bottom: 10px;
@@ -151,6 +162,12 @@ body{
 #about12 > pre{
     font-size: 16px;
     margin-top: 40px;
+}
+#tech{
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
 }
 .heading{
     color: blue;
@@ -222,6 +239,7 @@ body{
     border-radius: 10px;
     box-shadow: 0 0 10px black;
     margin-bottom: 20px;
+    background-color: antiquewhite;
 }
 #cicon{
     margin-left: 400px;

@@ -1,7 +1,7 @@
 class Tech extends React.Component{
     render(){
         return(
-            <>
+            <div id="tech">
             <h4 className="heading">Technical Skills</h4>
             <h4>HTML</h4>
             <progress className="progress" max="100" value="75"></progress><br/>
@@ -15,7 +15,7 @@ class Tech extends React.Component{
             <progress className="progress" max="100" value="50"></progress><br/>
             <br/><br/>
             <hr></hr>
-            </>
+            </div>
         )
     }
 }
