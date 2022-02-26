@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: aqua;
+    background:linear-gradient(to right,#36d1dc, #5b86e5);
 }
 
 .nav{
