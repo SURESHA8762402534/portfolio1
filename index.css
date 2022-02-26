@@ -75,7 +75,7 @@ body{
 
 #right{
     float: right;
-    width: 80vw;
+    width: 75vw;
     height: auto;
     padding: 10px;
     background: linear-gradient(right, #a8ff78 #78ffd6);
