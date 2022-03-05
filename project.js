@@ -5,13 +5,9 @@ class Project extends React.Component{
              <h4 className="heading">Projects under taken</h4>
             <div className="cardcontainer">
             <div className="card">
-                 <h4>"Secured intra Body Communication using <b>Red-Tacton</b> technology"</h4>
-                 <p id="para">“RedTacton” is a new Human 
-                    Area Networking technology that uses the 
-                    surface of the human body as a safe, high speed 
-                    network transmission path to use human area 
-                    network for transmitting data over a shorter 
-                    distance with high speed and efficiency.</p>
+                 <h4>"E-Commerce website"</h4>
+                 <p id="para">This e-commerce website is developed by using the fakestore api, and this contains 
+                    the basic functionalities of a normal e-commerce website.</p>
              </div>
              <div className="card">
                  <h4>"<b>Tic-Tok-Toi</b> App"</h4>
