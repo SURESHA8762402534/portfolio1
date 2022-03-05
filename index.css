@@ -262,3 +262,18 @@ body{
     margin-bottom: 10px;
     color: brown;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    #left{
+        display: none;
+    }
+    #right{
+        margin-left: 0;
+        left: 0;
+        padding-left: 0;
+    }
+  }
